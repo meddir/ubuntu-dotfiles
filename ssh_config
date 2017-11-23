@@ -1,0 +1,11 @@
+# Github
+Host github
+	HostName github.com
+	User git
+	IdentityFile ~/.ssh/meddir_rsa
+
+# CAEN
+Host caen
+	HostName login.engin.umich.edu
+	User meddir
+	Compression yes
